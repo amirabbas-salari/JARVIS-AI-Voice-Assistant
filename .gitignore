@@ -1,0 +1,164 @@
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# =========================
+# Virtual Environment
+# =========================
+
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Environment Variables
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# =========================
+# IDE / Editors
+# =========================
+
+.vscode/
+.idea/
+*.code-workspace
+
+# =========================
+# Jupyter
+# =========================
+
+.ipynb_checkpoints/
+
+# =========================
+# Logs
+# =========================
+
+*.log
+logs/
+
+# =========================
+# Temporary Files
+# =========================
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# =========================
+# Audio Files
+# =========================
+
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.m4a
+
+# =========================
+# Generated / Temporary Audio
+# =========================
+
+audio/
+recordings/
+temp_audio/
+
+# =========================
+# AI / ML Model Files
+# =========================
+
+*.pt
+*.pth
+*.onnx
+*.bin
+*.safetensors
+*.ckpt
+
+# =========================
+# Local Model / Cache
+# =========================
+
+models/
+model_cache/
+.cache/
+
+# =========================
+# Whisper / HuggingFace
+# =========================
+
+.cache/huggingface/
+huggingface/
+hf_cache/
+
+# =========================
+# PyTorch
+# =========================
+
+torch_cache/
+
+# =========================
+# n8n Local Data
+# =========================
+
+.n8n/
+n8n_data/
+
+# =========================
+# OS
+# =========================
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# =========================
+# Windows
+# =========================
+
+*.lnk
+
+# =========================
+# Build / Distribution
+# =========================
+
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Testing / Coverage
+# =========================
+
+.pytest_cache/
+.coverage
+htmlcov/
+.coverage.*
+.tox/
+
+# =========================
+# Local Configuration
+# =========================
+
+config.local.*
+settings.local.*
+
+# =========================
+# Secrets
+# =========================
+
+*.pem
+*.key
+*.crt
+secrets/
+credentials/
